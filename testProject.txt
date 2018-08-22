@@ -15,3 +15,16 @@ To add a file to a commit, you first need to add it to the staging environment. 
 It's time to create your first commit!
 
 Run the command 			: git commit -m "Your message about the commit"
+
+If the changes don’t conflict, you’re done. If there are conflicts, markers will be left in the problematic files showing the conflict;
+					: git diff
+will show this. Once you’ve edited the files to resolve the conflicts,
+					: git commit -a
+will commit the result of the merge. Finally
+					:gitk
+
+
+will show a nice graphical representation of the resulting history.
+At this point you could delete the experimental branch with
+					: git branch -d experimental
+
