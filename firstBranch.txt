@@ -1,5 +1,0 @@
-hello this is first branch
-commands as follows:
-making Branch: git checkout -b <branchName>
-short	: git branch <branchName>
-	: git checkout <branchName>		
