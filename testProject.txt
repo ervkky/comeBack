@@ -22,3 +22,8 @@ If you also want to see complete diffs at each step, use
 					: git log -p
 Often the overview of the change is useful to get a feel of each step
 					: git log --stat --summary
+
+It’s always better to be explicit though. What’s more, you have multiple branches here, so you need to tell git where to push (i.e. back to the remote repository you cloned from, on GitHub) and what exactly to push (your new branch).
+
+The repository you cloned from - yours - can be referred to as origin. The new branch is called amend-my-name. 
+					: git push origin BranchFile
