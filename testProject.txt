@@ -10,4 +10,8 @@ after creating see which files git known exist: git status
 
 "HEY, WE NOTICED YOU CREATED A NEW FILE CALLED MNELSON.TXT, BUT UNLESS YOU USE THE 'GIT ADD' COMMAND WE AREN'T GOING TO DO ANYTHING WITH IT."
 
+To add a file to a commit, you first need to add it to the staging environment. To do this, you can use the 						:git add <filename> command
 
+It's time to create your first commit!
+
+Run the command 			: git commit -m "Your message about the commit"
