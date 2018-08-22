@@ -1,0 +1,13 @@
+Git Command:
+
+change directory to required Folder	: cd DirectoryName
+					: mkdir NewDirectoryName
+to initialise git repository 		: git init
+
+Add new file				:gedit fileName.txt
+
+after creating see which files git known exist: git status
+
+"HEY, WE NOTICED YOU CREATED A NEW FILE CALLED MNELSON.TXT, BUT UNLESS YOU USE THE 'GIT ADD' COMMAND WE AREN'T GOING TO DO ANYTHING WITH IT."
+
+
