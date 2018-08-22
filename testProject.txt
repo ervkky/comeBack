@@ -16,6 +16,7 @@ It's time to create your first commit!
 
 Run the command 			: git commit -m "Your message about the commit"
 
+<<<<<<< HEAD
 At any point you can view the history of your changes using
 					: git log
 If you also want to see complete diffs at each step, use
@@ -27,3 +28,17 @@ It’s always better to be explicit though. What’s more, you have multiple bra
 
 The repository you cloned from - yours - can be referred to as origin. The new branch is called amend-my-name. 
 					: git push origin BranchFile
+=======
+If the changes don’t conflict, you’re done. If there are conflicts, markers will be left in the problematic files showing the conflict;
+					: git diff
+will show this. Once you’ve edited the files to resolve the conflicts,
+					: git commit -a
+will commit the result of the merge. Finally
+					:gitk
+
+
+will show a nice graphical representation of the resulting history.
+At this point you could delete the experimental branch with
+					: git branch -d experimental
+
+>>>>>>> experimental
