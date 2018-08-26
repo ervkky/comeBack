@@ -41,4 +41,21 @@ will show a nice graphical representation of the resulting history.
 At this point you could delete the experimental branch with
 					: git branch -d experimental
 
+at this point the two branches have diverged, with different changes made in each. To merge the changes made in experimental into master, run
+
+git merge experimental
+
 >>>>>>> experimental
+
+Git to add origin formate
+git remote add origin https://github.com/ervkky/provideNameOfGitRepository
+
+
+git commit -a -m 'change done'
+
+
+git pull remote https://github.com/ervkky/comeBack.git
+
+
+
+
